@@ -9,7 +9,7 @@ before_script:
   -O $HOME/twrp.tar.xz
 - tar -xJf twrp.tar.xz --directory $HOME/twrp/ && rm twrp.tar.xz
 script:
-  - cd $HOME/twrp/ && git clone -b nougat https://github.com/ALGPHELLO/android_device_condor_plume_l2.git device/condor/plume_l2
+  - cd $HOME/twrp/ && git clone -b master https://github.com/ALGPHELLO/android_device_condor_plume_l2.git device/condor/plume_l2
   - git clone https://github.com/TwrpBuilder/device_generic_twrpbuilder.git device/generic/twrpbuilder
   - rm -rf bootable/recovery && git clone https://github.com/omnirom/android_bootable_recovery.git bootable/recovery
   - |
