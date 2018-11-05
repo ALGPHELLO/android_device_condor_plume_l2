@@ -31,6 +31,3 @@ deploy:
     tags: false
     repo: ALGPHELLO/android_device_condor_plume_l2
     branch: master
-branches:
-  except:
-    - /^(?i:untagged)-.*$/
